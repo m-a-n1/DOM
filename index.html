@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM</title>
+    </head>
+
+    <body>
+        <h3>Clicks: <span id="clicks">0</span></h3>
+        <button type="button" onClick="add()">+</button>
+
+        <script>
+            let clicks = 0;
+            function add() {
+                clicks++;
+                document.getElementById("clicks").innerText = clicks
+            };
+        </script>
+        <!--<div>
+        <h1>programming languages</h1>
+            <ul class="list">
+                <li>javascript</li>
+                <li>kotlin</li>
+                <li>swift</li>
+               </ul>
+        </div>
+        <script>
+            let languageList = document.querySelector(".list")
+            let ios = document.querySelectorAll("li")[2]
+            ios.remove()
+            console.log(languageList)
+        </script>
+            
+            <div>
+        <h1>programming languages</h1>
+            <ul class="list">
+                <li>javascript</li>
+                <li>kotlin</li>
+                <li>swift</li>
+               </ul>
+        </div>
+        <script>
+            let languageList = document.querySelector(".list")
+            let ruby = document.createElement("li")
+            ruby.innerText = "Ruby"
+            languageList.append(ruby)
+            console.log(languageList)
+        </script>
+            
+            <div id="first-div">
+        <h1>programming languages</h1>
+            <ul>
+                <li id="first-li">javascript</li>
+                <li id="second-li">kotlin</li>
+                <li id="last-li">swift</li>
+               </ul>
+        </div>
+        <script>
+            let android = document.querySelector("#second-li")
+            android.style.color = "blue"
+        </script>
+            
+            <div id="first-div">
+        <h1>programming languages</h1>
+            <ul>
+                <li id="first-li">javascript</li>
+                <li id="second-li">kotlin</li>
+                <li id="last-li">swift</li>
+               </ul>
+        </div>
+        <script>
+            let android = document.querySelector("#second-li")
+            android.innerText = "java"
+        </script>
+            
+            <div>
+        <h1>programming languages</h1>
+        <p>these are some programming languages:</p>
+            <ul class="languages">
+                <li>javascript</li>
+                <p>we can create interactive websites using javascript</p>
+                <li>kotlin</li>
+                <p>we can develop android apps using kotlin</p>
+                <li>swift</li>
+                <p>we can develop ios apps using swift</p>
+            </ul>
+        </div>
+        <script>
+            let text = document.querySelectorAll('.languages p')
+            console.log(text)
+        </script>
+            
+            <div>
+        <h1>programming languages</h1>
+            <ul>
+                <li \>javascript</li>
+                <li>kotlin</li>
+                <li>swift</li>
+            </ul>
+        </div>
+        <script>
+            let list = document.getElementsByTagName('li')
+            console.log(list[1])
+        </script>
+
+
+            <div>
+        <h1>programming languages</h1>
+            <ul>
+                <li class="p-languages">javascript</li>
+                <li class="p-languages">kotlin</li>
+                <li class="p-languages">swift</li>
+            </ul>
+        </div>
+        <script>
+            let languages = document.getElementsByClassName("p-languages")
+            console.log(languages[2])
+        </script>
+
+
+            <div id="first-div">
+            <h1>programming languages</h1>
+            <ul>
+                <li id="first-li">javascript</li>
+                <li id="second-li">kotlin</li>
+                <li id="last-li">swift</li>
+            </ul>
+        </div>
+        <script>
+            let kotlin = document.getElementById('second-li')
+            console.log(kotlin)
+        </script>-->
+    </body>
+</html>
